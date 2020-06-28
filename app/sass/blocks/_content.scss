@@ -1,0 +1,21 @@
+.content {
+  background-color: grey;
+  &__row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  &__item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: brown;
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+  }
+}
+.container {
+}

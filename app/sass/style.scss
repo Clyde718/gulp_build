@@ -1,0 +1,23 @@
+@import "base/fonts";
+@import "base/vars";
+
+@import "libs/libs";
+
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  color: red;
+  font-size: 120px;
+}
+
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 0px 15px;
+}
+
+@import "blocks/header";
+@import "blocks/content";
+@import "blocks/footer";
