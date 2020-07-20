@@ -1,5 +1,6 @@
 @import "global/fonts"; // Шрифты
 @import "global/vars"; // Переменные
+@import "global/global"; // Глобальные стили
 @import "libs/libs"; // Сборка из библиотек
 
 * {
@@ -43,10 +44,10 @@ body {
   max-width: 1170px;
   margin: 0 auto;
   padding: 0px 15px;
+  width: 100%;
 }
 
 @import "blocks/header";
-@import "blocks/content";
 @import "blocks/footer";
 // adaptive
 @import "blocks/media";
